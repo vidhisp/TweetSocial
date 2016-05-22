@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>twitterGateway</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <script src="/javascripts/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="/javascripts/scriptFuncsHome.js"></script>
+    <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet"></link>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+    <script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- <script type="text/javascript" src="/javascripts/jquery.tokeninput.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/token-input.css" /> -->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-custom" role="navigation" ng-controller="NavCtrl">
+
+      <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="/first.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="active"><a href="/index.html"><span class="glyphicon glyphicon-share"></span> Post Tweets</a></li>
+        <li style="margin:0 0 0 800px" class="notactive"><a id="user" href="/home.html"></a></li>
+        <li class="notactive"><a href="/groupmembers.html"><span class="glyphicon glyphicon-user"></span> Group Members</a></li>
+        <li class="active"><a id="logout" href="">Log Out</a></li>
+      </ul>
+  </nav>
+
+
+  <div class="row">
+
+<!--user profile reference-http://bootsnipp.com/snippets/2pRW0 -->
+      <div class="col-lg-5">
+          <div class="media">
+              <a class="pull-left" href="#">
+                  <img class="media-object dp img-circle" src="https://cdn4.iconfinder.com/data/icons/human-resources/80/Human_resource_icons-11-512.png" style="width: 100px;height:100px;">
+              </a>
+              <div class="media-body">
+                  <h4 class="media-heading"><span id="user12"></span> <br><small> California</small></h4>
+                  <h5>Student at <a href="http://gridle.in">CSUF</a></h5>
+                  <hr style="margin:8px auto">
+
+                  <span class="label label-default">HTML5/CSS3</span>
+                  <span class="label label-default">jQuery</span>
+                  <span class="label label-info">Javascript</span><br><br><br>
+
+
+              </div>
+          </div>
+
+      </div>
+      <div class="col-xs-3">
+          <div class="project project-radius project-primary">
+              <div class="shape">
+                  <div class="shape-text">
+                      Group
+                  </div>
+              </div><br>
+              <div class="project-content ">
+                  <h4 class="lead">
+                      Groups<br><br>
+                      <span id="grpUsers1">
+                         </span>
+
+              </div>
+          </div>
+      </div>
+
+
+
+
+  </div>
+
+
+
+
+
+</body>
+</html>

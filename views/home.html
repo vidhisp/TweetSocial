@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>twitterGateway</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <script src="/javascripts/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="/javascripts/scriptFuncsHome.js"></script>
+    <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet"></link>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+    <script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- <script type="text/javascript" src="/javascripts/jquery.tokeninput.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/token-input.css" /> -->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-custom" role="navigation" ng-controller="NavCtrl">
+
+      <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="/first.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="active"><a href="/index.html"><span class="glyphicon glyphicon-share"></span> Post Tweets</a></li>
+        <li style="margin:0 0 0 800px" class="notactive"><a id="user" href="/home.html"></a></li>
+        <li class="active"><a href="/groupmembers.html"><span class="glyphicon glyphicon-user"></span> Group Members</a></li>
+        <li class="active"><a id="logout" href="">Log Out</a></li>
+      </ul>
+  </nav>
+<!--group outline box reference-http://bootsnipp.com/snippets/Ba7ez -->
+  <div class="col-xs-3">
+      <div class="project project-radius project-primary">
+          <div class="shape">
+              <div class="shape-text">
+                  Group
+              </div>
+          </div>
+          <div class="project-content">
+              <h4 class="lead">
+                  Create New Group:
+              </h4>
+              <input type="text"  class="form-control"  id="groupName" size="35" maxlength="8" placeholder="Enter Group Name (Maximum Length 8)"><br/>
+              <input type="text"  class="form-control"  id="groupmem" size="20" placeholder="Select group members">
+              <br/>
+              
+              <div id="grpUsers">
+              </div>  
+
+              <br><button type="button" id="makegroup" class="btn btn-labeled btn-success">
+                  <span class="btn-label"><i class="glyphicon glyphicon-plus"></i></span>Create</button>
+
+          </div>
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+       <div class="col-md-6 col-md-offset-3">
+          <!-- <h1 class="center"> Tweets for approval </h1>  -->
+          <div id="uid"></div>
+          <br/>
+          <div id="postTweets" class="div-table">
+          </div>
+
+
+       </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

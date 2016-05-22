@@ -1,0 +1,320 @@
+.tweet{
+    word-break: break-all; 
+    word-wrap: break-word;
+    font-family: "Oswald";
+    font-size: 15px;
+}
+
+.description{ 
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+}
+
+.div-table{
+      display:table;         
+      width:auto;         
+      border:2px solid  #106cc8;         
+      border-spacing:5px;
+      border-collapse:separate;
+      border-radius:6px;
+      -moz-border-radius:6px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}body {
+    margin: 0;
+    padding: 0;
+    background-color:#F8F8F8;
+
+}
+div #colorc{
+    color: #c4e3f3;
+}
+
+.vis-hidden{
+     visibility: hidden;
+  }
+
+.text_type_bold{
+    font-weight:bold;
+}
+
+#btn{
+    margin:0 0 0 70px;
+    border-color: #77c7f7;
+    font-family: sans-serif;
+    border-width: 2px;
+    font-weight: 400;   
+}
+
+#btn:hover
+{
+    background-color:#77c7f7;
+}
+.post-container {
+    border-color: #106cc8;
+    border-style: solid;
+    border-width: 2px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-custom {
+    background-color:#fff;
+    border-color: #E7E7E7;
+    font-size: 13px;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+a{
+    color: #106cc8; 
+}
+
+.header{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+#frm{
+    font-family: sans-serif;
+    background-color:#337ab7;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+    padding:15px;
+    width: 500px;
+    border:1px solid #E4E4E4;
+    font-weight: 300;
+    height: 350px;
+}
+
+.primary-btn.submit {
+    background-color: #fff;
+    border: 1px solid white;
+    color: #106cc8;
+}
+
+
+#txtArea{
+    margin:0 0 30px 90px;
+    width: 300px; height:130px;
+    border: 1px solid #e1e8ed;
+    border-radius: 3px;
+    outline: 0 none;
+    padding: 4px;
+    resize:none;
+}
+/*nikunj*/
+
+ul li .active{
+    color:#2b669a;
+}
+.navbar navbar-custom{
+    width: 100%;
+}
+
+.container-fluid text-center{
+    width: 100%;
+}
+.SiteFooter-copyright a span{
+    color:#1dcaff;
+}
+
+.SiteFooter-copyright a:hover span{
+    color:white;
+}
+.colorc a span{
+    color:#1dcaff;
+}
+
+.colorc a:hover span{
+    color:white;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.anc {
+    color: white;
+    text-decoration: none;
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+/* footer social icons */
+
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+a .icoTwitter{
+    background-color: #D3D3D3;
+}
+
+
+
+
+
+.shape{
+    border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    transform:rotate(360deg);
+}
+
+.shape-text{
+    color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(30deg); /* Safari and Chrome */
+    transform:rotate(30deg);
+}
+
+.project {
+    min-height:300px;
+    height:auto;
+}
+
+.project{
+    background:#fff; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+}
+
+.project-radius{
+    border-radius:7px;
+}
+
+
+.project-primary {	border-color: #428bca; }
+.project-primary .shape{
+    border-color: transparent #428bca transparent transparent;
+    border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+
+
+.project-content {
+    padding:0 20px 10px;
+}
+
+
+
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.btn { margin-bottom:10px; }
+
+
+.media
+{
+    /*box-shadow:0px 0px 4px -2px #000;*/
+    margin: 20px 0;
+    padding:30px;
+}
+.dp
+{
+    border:10px solid #eee;
+    transition: all 0.2s ease-in-out;
+}
+.dp:hover
+{
+    border:2px solid #eee;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    /*-webkit-font-smoothing:antialiased;*/
+}
+
+#gnamecss{
+color:#337ab7;
+}
+#unamecss{
+color: #5bc0de;
+}
+
+.panel {
+    background-color: transparent;
+}
+
+.panel-body {
+    padding-top: 30px;
+    background-color: rgba(2555,255,255,.3);
+}

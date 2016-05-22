@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>twitterGateway</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <script type="text/javascript" src="/javascripts/scriptFuncs.js"></script>
+     <script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+   
+    
+</head>
+
+<body>
+
+  <nav class="navbar navbar-custom" role="navigation" ng-controller="NavCtrl">
+      <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="/first.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li class="notactive"><a href="/index.html"><span class="glyphicon glyphicon-share"></span> Post Tweets</a></li>
+          <li style="margin:0 0 0 900px" class="act"><a id="user" href="/home.html"></a></li>
+          <li class="active"><a href="/groupmembers.html"><span class="glyphicon glyphicon-user"></span> Group Members</a></li>
+        <li class="active"><a id="logout" href="">Log Out</a></li>
+      </ul>
+  </nav>  
+
+  <div class="container">
+    <div class="row">
+       <div class="col-md-6 col-md-offset-3">
+            <!-- <h3 class="center"> Tweet</h3>
+             --> 
+            <form name="frm" id="frm">
+                <br>
+                <div class="form-group" >
+                   <textarea id="txtArea" class="form-group" rows="3" placeholder="What's happening?" 
+                      maxlength="140" required></textarea>
+                   <input type="text" id="datepicker" style="margin:0 0 0 90px" placeholder="Schedule your tweet" />
+                    
+                    <br/><br/>
+                   <div class="dropdown" style="margin:0 0 0 90px">
+                      <select id="grpDrpDwn" style="background-color: #ffffff;color: #A9A9A9;" class="btn btn-primary dropdown-toggle">
+                      </select>
+                   </div>
+
+                </div>
+                <div style="margin:0 0 0 90px">
+                  <button id="btnSubmit" type="submit" class="submit btn primary-btn"> Submit for Approval </button>
+                  <span id="charCount" style="margin:0 5px 0 0;color:#fff">140</span>
+                </div>
+
+            </form>
+            <br><br><br>
+
+            <div id="divMess" class="alert alert-info fade in">
+              <span id="message"></span>
+            </div>
+
+
+        </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+
+
